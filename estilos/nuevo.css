@@ -1,0 +1,66 @@
+.cuerpo-principal .cuerpo-derecha{
+    width: 95vw;
+    background: #f1f5f5;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+.cuerpo-derecha .div-nuevo{
+width: 35vw;
+height: 70vh;
+background: #fff;
+border-radius: 10px;
+margin: 17px 0;
+overflow: hidden;
+-webkit-box-shadow: 10px 9px 15px -7px rgba(46,36,46,1);
+-moz-box-shadow: 10px 9px 15px -7px rgba(46,36,46,1);
+box-shadow: 10px 9px 15px -7px rgba(46,36,46,1);
+}
+/* .cuerpo-derecha .div-nuevo::before{
+    content: '';
+    background: #03001C;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    clip-path: polygon(100% 49%, 48% 100%, 100% 100%);
+    transform: translate(147px,78px);
+    overflow: hidden;
+    border-radius: 10px;
+} */
+
+.cuerpo-derecha h1{
+    margin: 17px 0;
+    font-size:33px;
+}
+.cuerpo-derecha .div-nuevo form div{
+    width: 100px;
+    height: 100px;
+    margin: 17px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    width: 36vw;
+    background: #fff;
+ 
+}
+.cuerpo-derecha .div-nuevo form div input{
+    width: 320px;
+    height: 35px;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: #fff;
+}
+.cuerpo-derecha .div-nuevo form div button{
+    width: 320px;
+    height: 42px;
+    position: relative;
+}
+.cuerpo-derecha .div-nuevo form div label{
+    font-size: 18px;
+    font-weight: 600;
+    transform: translateX(-120px);
+    position: relative;
+}

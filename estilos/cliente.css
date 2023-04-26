@@ -1,0 +1,23 @@
+/* ESTILOS A LA BARRA DERECHA */
+.cuerpo-principal .cuerpo-derecha{
+    width: 95vw;
+    background: #ffffff;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+.cuerpo-derecha div{
+    width: 85vw;
+    height: 6vh;
+    background:#ffffff;
+      
+}
+.cuerpo-derecha h1{
+    margin: 22px 0;
+}
+.cuerpo-derecha table thead tr th{
+    text-align: center;
+}
+.cuerpo-derecha table tbody tr td{
+    text-align: center;
+}

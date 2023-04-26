@@ -1,0 +1,109 @@
+/* ESTILOS A LA BARRA DERECHA */
+.cuerpo-principal .cuerpo-derecha{
+    width: 95vw;
+    background: #f8fafa;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+.cuerpo-derecha h1{
+    transform: translateX(-580px);
+    font-size: 30px;
+}
+.cuerpo-derecha div{
+    width: 85vw;
+    height: 28vh;
+    margin: 15px 0;
+    display: flex;
+}
+.cuerpo-derecha .container-datos{
+    display: flex;
+    flex-wrap: wrap;
+    background: #ffff;
+    gap: 12px;
+    padding: 16px;
+    -webkit-box-shadow: 10px 9px 15px -7px rgba(46, 36, 46, 0.685);
+-moz-box-shadow: 10px 9px 15px -7px rgba(46, 36, 46, 0.788);
+box-shadow: 10px 9px 15px -7px rgba(46, 36, 46, 0.603);
+    
+}
+.cuerpo-derecha .container-datos section{
+    display: flex;
+    flex-direction: column ;
+    margin: 0 20px;
+  
+}
+.container-datos section label{
+    font-weight: 600;
+}
+.container-datos section input,select{
+    width: 250px;
+    height: 40px;
+}
+.container-datos section:nth-child(8){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-datos section:nth-child(8) button{
+width: 160px;
+}
+.cuerpo-principal .container-ventas{
+    -webkit-box-shadow: 10px 9px 15px -7px rgba(46, 36, 46, 0.685);
+    -moz-box-shadow: 10px 9px 15px -7px rgba(46, 36, 46, 0.788);
+    box-shadow: 10px 9px 15px -7px rgba(46, 36, 46, 0.603);
+ overflow-y: scroll;
+ height: auto;
+ max-height: 300px;
+ display: flex;
+ background: #fff;
+
+}
+.cuerpo-principal .container-resultado{
+    background: rgb(54, 98, 182);
+    height: 7vh;
+    box-sizing: border-box;
+    padding:  20px;
+    color: #fff;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.cuerpo-principal .btn-i{
+    width: 85vw;
+    font-size: 18px;
+    font-weight: 600;
+}
+.cuerpo-principal .container-cliente{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background: #fff;
+    -webkit-box-shadow: 10px 9px 15px -7px rgba(46, 36, 46, 0.685);
+    -moz-box-shadow: 10px 9px 15px -7px rgba(46, 36, 46, 0.788);
+    box-shadow: 10px 9px 15px -7px rgba(46, 36, 46, 0.603);
+}
+.container-cliente section{
+    display: flex;
+    padding: 0 42px;
+    box-sizing: border-box;
+    gap: 22px;
+}
+.container-cliente section label{
+    font-weight: 600;
+    font-size: 18px;
+}
+.container-cliente section #c-telefono{
+    width: 250px;
+    height: 35px;
+    margin: 0 15px;
+}
+.container-btn{
+    display: flex;
+  background: #ffffff;
+   
+
+}

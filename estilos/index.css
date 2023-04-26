@@ -1,0 +1,197 @@
+body{
+    background: rgb(104, 98, 98);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+.main-principal .barra-arriba{
+    width: 100vw;
+    height: 10vh;
+    /* background: #5B8FB9; */
+    background: #FF416C;
+	background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);
+	background: linear-gradient(to right, #FF4B2B, #FF416C);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 0;
+    display: flex;
+    flex-direction:reverse;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.main-principal .barra-arriba h1{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0 75px;
+}
+.main-principal .barra-arriba div{
+    width: 45px;
+    height:45px;
+    background: #e7ebe9;
+    border-radius: 100%;
+    margin: 0 35px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.main-principal .barra-arriba p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 800;
+    transform: translate(440px,10px);
+    color: #fff;
+}
+.main-principal .cuerpo-principal{
+    width: 100vw;
+    height: 90vh;
+    background: #e7f0ed;
+    display: flex;
+    justify-content: center;
+}
+.cuerpo-principal{
+    overflow-x: hidden;
+}
+.cuerpo-principal div{
+    width: 50vw;
+    height:90vh;
+    background: rgb(236, 247, 255);
+    /* border: 1px solid #000; */
+}
+
+.cuerpo-principal .cuerpo-izquierda{
+    width: 5vw;  
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: #574294;
+}
+
+
+/* ESTILOS A LA BARRA IZQUIERDA */
+.cuerpo-izquierda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.enlaces{
+
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+    width: 5vw; 
+}
+
+.enlaces li{
+    list-style: none;
+   flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5vw; 
+    padding: 10px;
+    gap: 8px;
+
+}
+.enlaces li p{
+    color: #fff;
+    font-weight: 300;
+}
+
+.enlaces li:hover{
+background: rgb(139, 184, 252);
+transition: 0.5s;
+width: 5vw; 
+cursor: pointer;
+}
+.enlaces li a {
+    text-decoration: none;
+   
+}
+.enlaces #cambiar{
+    display:none;
+}
+.enlaces label:hover{
+    cursor: pointer;
+}
+
+/* ESTILOS A LA BARRA DERECHA */
+/* .cuerpo-principal .cuerpo-derecha{
+    width: 95vw;
+    background: #d9dbdb;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+.cuerpo-derecha h1{
+    text-align: center;
+    color: rgba(46,36,46,1);
+    margin: 20px 0;
+}
+.cuerpo-derecha img{
+    width: 200px;
+    height: 80px;
+}
+.cuerpo-derecha .container-tarjetas{
+    display: flex;
+    background: #d9dbdb;
+   
+    width: 65vw;
+    height: 30vh;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin: 25px 0;
+}
+.container-tarjetas span{
+    width: 150px;
+    height: 150px;
+    flex-grow: 1;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    -webkit-box-shadow: 10px 9px 15px -7px rgba(46,36,46,1);
+    -moz-box-shadow: 10px 9px 15px -7px rgba(46,36,46,1);
+    box-shadow: 10px 9px 15px -7px rgba(46,36,46,1);
+}
+
+
+.container-tarjetas span img{
+    width: 40px;
+    height: 40px;    
+    margin: 15px 0;
+}
+.container-tarjetas span p{
+    font-weight: 800;
+    font-size: 17px;
+    border-bottom: 1px solid #000;
+}
+.container-tarjetas span label{
+    font-size: 19px;
+    font-weight: 700;
+    transform: translateY(-10px);
+} */
+
+
+/*****************************************************/

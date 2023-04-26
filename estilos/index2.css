@@ -1,0 +1,59 @@
+/* ESTILOS A LA BARRA DERECHA */
+.cuerpo-principal .cuerpo-derecha{
+    width: 95vw;
+    background: #f1f5f5;
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+}
+.cuerpo-derecha h1{
+   text-align: center;
+    color: rgba(46,36,46,1);
+    margin: 20px 0;
+}
+.cuerpo-derecha img{
+    width: 200px;
+    height: 80px;
+}
+.cuerpo-derecha .container-tarjetas{
+    display: flex;
+    background: #f1f5f5;
+   
+    width: 65vw;
+    height: 30vh;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    margin: 25px 0;
+}
+.container-tarjetas span{
+    width: 150px;
+    height: 150px;
+    flex-grow: 1;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    -webkit-box-shadow: 10px 9px 15px -7px rgba(46,36,46,1);
+    -moz-box-shadow: 10px 9px 15px -7px rgba(46,36,46,1);
+    box-shadow: 10px 9px 15px -7px rgba(46,36,46,1);
+}
+
+
+.container-tarjetas span img{
+    width: 40px;
+    height: 40px;    
+    margin: 15px 0;
+}
+.container-tarjetas span p{
+    font-weight: 800;
+    font-size: 17px;
+    border-bottom: 1px solid #000;
+}
+.container-tarjetas span label{
+    font-size: 19px;
+    font-weight: 700;
+    transform: translateY(-10px);
+}
